@@ -17,7 +17,6 @@
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 sed -i '$a src-git video https://github.com/openwrt/video.git' feeds.conf.default
 sed -i '$a src-git targets https://github.com/openwrt/targets.git' feeds.conf.default
-sed -i '$a src-git targets https://github.com/openwrt/targets.git' feeds.conf.default
 sed -i '$a src-git management https://github.com/openwrt-management/packages.git' feeds.conf.default
 sed -i '$a src-git oldpackages http://git.openwrt.org/packages.git' feeds.conf.default
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
