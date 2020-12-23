@@ -20,6 +20,5 @@ sed -i '$a src-git targets https://github.com/openwrt/targets.git' feeds.conf.de
 sed -i '$a src-git targets https://github.com/openwrt/targets.git' feeds.conf.default
 sed -i '$a src-git management https://github.com/openwrt-management/packages.git' feeds.conf.default
 sed -i '$a src-git oldpackages http://git.openwrt.org/packages.git' feeds.conf.default
-sed -i '$a src-link custom /usr/src/openwrt/custom-feed' feeds.conf.default
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
 sed -i '$a src-git passwall https://github.com/passwall/openwrt-passwall' feeds.conf.default
